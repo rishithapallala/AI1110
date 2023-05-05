@@ -1,4 +1,4 @@
-:import numpy as np
+import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import bernoulli
 from scipy.stats import norm
@@ -11,7 +11,7 @@ n = 6
 #Probability of a six
 p = 1/6
 
-#k is the possible values of the doublets
+#k is the possible number of the sixes
 k_values = list(range(n+1))
 
 #y gives the probability values for each of the values of k
